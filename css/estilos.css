@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Neuton');
+body{
+    background-color: #CD6155;
+    font-family: 'Neuton', serif;
+}
+
+.contenedor-inicial{
+    background-color: #EAECEE;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.social > li{
+    text-align: center;
+    padding: 0 8px;
+    list-style: none;
+    display: inline;
+    font-size: 35px;
+}
+
+.navegacion{
+    width: 100%;
+    background-color: #F5B041;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.row > div >a{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    /* background-color: cadetblue; */
+    border-radius: 15px;
+    color: black;    
+}
+
+.row div >a:hover{
+    background-color: tomato;
+    color: white;
+}
+
+
+/* contenedor segundario */
+
+.contenedor-segundario{
+    margin-top: 12px;
+    background-color: #EAECEE;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.contenido-info{
+    background-color: #EAECEE;
+    margin-top: 8px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+h5{
+    font-weight: bold;
+}
+
+.user{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+.user >i{
+    font-size: 48px;
+}
+
+
+@media screen and (max-width:840px){
+    .puff{
+        display: none;
+    }
+}
